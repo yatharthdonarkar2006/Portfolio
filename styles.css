@@ -512,9 +512,7 @@ body {
 }
 
 .about-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 2rem;
+    /* Layout handled by Bootstrap rows/cols */
 }
 
 .about-card {
@@ -601,9 +599,7 @@ body {
    SKILLS SECTION
 ====================== */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    /* Layout handled by Bootstrap rows/cols */
     margin-bottom: 4rem;
 }
 
@@ -703,9 +699,7 @@ body {
 }
 
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
+    /* Layout handled by Bootstrap rows/cols */
     margin-bottom: 4rem;
 }
 
